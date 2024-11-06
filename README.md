@@ -4,7 +4,7 @@ Welcome to the Weather App! This app allows users to search for current weather 
 
 ![Weather App Demo]
 
-![Uploading Weather App - Google Chrome 06_11_2024 18_15_55.png…]()
+![Weather App - Google Chrome 06_11_2024 18_15_55](https://github.com/user-attachments/assets/951bf782-a169-4fb5-af15-6ecfb2e57933)
 
 ## Table of Contents
 - [Features](#features)
