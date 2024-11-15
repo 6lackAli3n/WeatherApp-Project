@@ -1,4 +1,5 @@
-echo "# Weather App - React Weather Application 🌦️
+echo "
+# Weather App - React Weather Application 🌦️
 
 A modern, responsive weather application built with React that provides real-time weather information and hourly forecasts.
 " >> README.md
@@ -10,10 +11,9 @@ echo "
 - Real-time weather data display
 - City-based weather search
 - Current weather conditions with temperature
-- 24-hour forecast
-- Responsive design for all devices
+- Hourly forecast
+- Responsive design
 - Dynamic weather icons
-- Glass morphism UI effects
 " >> README.md
 
 # Add Built With section
@@ -21,7 +21,7 @@ echo "
 ## 🛠️ Built With
 
 - React 18
-- CSS3 (Flexbox, Glass Morphism)
+- CSS3 (Flexbox)
 - OpenWeatherMap API
 - JavaScript ES6+
 - Create React App
@@ -33,7 +33,7 @@ echo "
 
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/6lackAli3n/WeatherApp-Project.git
 
 # Navigate to project directory
 cd weather-app
@@ -41,22 +41,8 @@ cd weather-app
 # Install dependencies
 npm install
 
-# Create .env file
-echo 'REACT_APP_WEATHER_API_KEY=your_api_key_here' > .env
-
 # Start the development server
 npm start
-\`\`\`
-" >> README.md
-
-# Add Environment Variables section
-echo "
-## 🔧 Environment Variables
-
-Create a \`.env\` file with:
-
-\`\`\`env
-REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key
 \`\`\`
 " >> README.md
 
@@ -74,8 +60,7 @@ weather-app/
 │   ├── App.jsx
 │   ├── App.css
 │   ├── index.js
-│   └── assets/
-│       └── sunrise.jpg
+│   └── sunrise.jpg
 ├── package.json
 ├── README.md
 └── .gitignore
@@ -89,7 +74,7 @@ echo "
 1. Enter a city name in the search bar
 2. Click the search button or press Enter
 3. View current weather conditions
-4. Scroll down for hourly forecast
+4. Scroll horizontally for hourly forecast
 " >> README.md
 
 # Add API Reference
@@ -98,7 +83,7 @@ echo "
 
 This project uses the OpenWeatherMap API:
 - Current Weather Data: \`/weather\`
-- 5 Day/3 Hour Forecast: \`/forecast\`
+- 2 Hour Forecast: \`/forecast\`
 " >> README.md
 
 # Add Future Features
@@ -134,9 +119,8 @@ npm run build
 echo "
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourgithub](https://github.com/yourgithub)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourlinkedin)
+**BAKARE ABULLAH**
+- GitHub: [@6lackAli3n](https://github.com/6lackAli3n/WeatherApp-Project.git)
 " >> README.md
 
 # Add License
@@ -151,9 +135,5 @@ echo "
 ## 📧 Contact
 
 For support or queries:
-- Email: your.email@example.com
-- GitHub: [@yourgithub](https://github.com/yourgithub)
-
----
-*Last updated: $(date '+%Y-%m-%d')*
+- Email: abubakarabdullahayo26@gmail.com
 " >> README.md
